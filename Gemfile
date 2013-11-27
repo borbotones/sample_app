@@ -36,7 +36,7 @@ group :test do
   # gem 'rb-fsevent', '0.9.1', :require => false
   # gem 'growl', '1.0.3'
 end
-
+gem 'therubyracer', :platforms => :ruby
 group :production do
   gem 'pg', '0.12.2'
 end
